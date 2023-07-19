@@ -1,0 +1,63 @@
+/* mobile-device */
+@media screen and (max-width: 576px) {
+    .nav-container, .menu-container, .gamer-container, .play-instant{
+        flex-direction: column;
+    }
+    nav{
+        align-items: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 40px auto;
+    }
+    .banner-img{
+        width: 400px;
+    }
+    .menu-container li{
+        margin: 15px 0px;
+    }
+    .logo-container{
+        margin-top: 50px;
+    }
+    .gammer-images{
+        width: 500px;
+        margin-left: 180px;
+    }
+    .online-game-img{
+        display: grid;
+        align-items: center;
+        grid-template-columns:repeat(1, 1fr);
+        margin: 20px 150px;
+    }
+    .gammer-tittle h3 p{
+        text-align: center;
+    }
+    .play-img{
+        width: 50%;
+        margin-left: 130px;
+    }
+    .play-girl{
+        width: 200px;
+    }
+    .play-img-content{
+        width: 10px;
+    }
+    .play-tittle, .gammer-description{
+        text-align: center;
+        line-height: 35px;
+    }
+}
+/* tablet-device */
+@media screen and (min-width:576px) and (max-width:992px) {
+        .nav-container, .menu-container, .gamer-container {
+            flex-direction: column;
+        }
+        .menu-container li{
+            margin: 15px 0px;
+        }
+        .logo-container{
+            margin-top: 50px;
+            padding-left: 120px;
+        }
+        
+}
